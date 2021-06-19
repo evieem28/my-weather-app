@@ -1,0 +1,112 @@
+body {
+  padding: 50px 0;
+  margin: auto;
+}
+h1 {
+  position: relative;
+  top: 10px;
+  left: 350px;
+  color: #17828a;
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 40px;
+  font-weight: bold;
+}
+h2 {
+  position: relative;
+  top: 10px;
+  left: 340px;
+  color: #17828a;
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 20px;
+}
+h3 {
+  position: relative;
+  top: 10px;
+  right: 45px;
+  color: #17828a;
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 15px;
+  margin: 14px;
+}
+h4 {
+  color: #17828a;
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}
+
+form {
+  position: relative;
+  top: 10px;
+  left: 5px;
+  margin: 15px 15px;
+  font-size: 13px;
+}
+button {
+  background-color: #5468db;
+  border-radius: 5px;
+  border-color: #17828a;
+  color: #17828a;
+  font-size: 15px;
+  padding: 0 5px;
+  transition: all 40ms ease-in-out;
+}
+
+.btn-primary {
+  position: relative;
+  display: inline-block;
+  background-color: #17828a;
+  border-radius: 5px;
+  color: white;
+  font-size: 13px;
+  padding: 1px 10px;
+  margin: auto;
+  flex-wrap: nowrap;
+  line-height: 1.2;
+}
+
+.btn-primary:hover {
+  color: #212529;
+  background-color: #52bebe;
+  border-color: #8ad3d3;
+}
+
+.framework {
+  background: radial-gradient(
+    circle at 14.2% 27.5%,
+    rgb(244, 250, 155) 0%,
+    rgb(248, 174, 174) 90%
+  );
+  display: block;
+  margin: auto;
+  max-width: 500px;
+  min-width: 650px;
+  border-radius: 20px;
+}
+.todaysDegrees {
+  text-align: right;
+}
+.searchButton {
+  background-color: #17828a;
+  border-radius: 5px;
+  color: white;
+}
+
+.thisWeek {
+  flex-wrap: nowrap;
+}
+.nextDays {
+  margin: 0 auto;
+  max-width: 100px;
+  padding: auto;
+}
+.eachDay {
+  font-size: 17px;
+  padding: auto;
+  max-width: 100%;
+  text-align: center;
+}
