@@ -20,6 +20,40 @@ let days = [
 let day = days[now.getDay()];
 h2.innerHTML = `${day}, ${hours}:${minutes}`;
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  let forecastHTML = `<div class="row">`;
+  forecastHTML =
+    forecastHTML +
+    `
+    <div class="col-2">
+           <div class="weather-forecast-date">Sun</div>
+<img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" width="42"/>
+<div class="weather-forecast-temperatures">
+          <span class="weather-forecast-temperature-max"> 22° </span>
+          <span class="weather-forecast-temperature-min"> 16° </span>
+            </div>
+      </div>
+    </div>
+  `;
+  forecastHTML =
+    forecastHTML +
+    `
+    <div class="col-2">
+           <div class="weather-forecast-date">Sun</div>
+<img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" width="42"/>
+<div class="weather-forecast-temperatures">
+          <span class="weather-forecast-temperature-max"> 22° </span>
+          <span class="weather-forecast-temperature-min"> 16° </span>
+            </div>
+      </div>
+    </div>
+  `;
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
+}
+
 function showTemperature(response) {
   let temperature = Math.round(response.data.main.temp);
   let h1 = document.querySelector("#display-temp");
